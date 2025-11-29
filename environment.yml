@@ -1,0 +1,8 @@
+name: 522-docker-env
+channels:
+  - conda-forge
+dependencies:
+  - pandas
+  - python=3.11
+  - seaborn
+prefix: /Users/jinyu/miniforge3/envs/522-docker-env
