@@ -9,3 +9,5 @@ RUN conda install --yes --name base --file /tmp/conda-linux-64.lock && \
     fix-permissions "/home/${NB_USER}"
 
 USER ${NB_UID}
+
+# trigger GitHub Actions build
